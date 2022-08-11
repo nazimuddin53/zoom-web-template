@@ -1,0 +1,794 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* ----------------------------------------------- */
+/* *************Start Header Section *********/
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    padding: 10px;
+    
+}
+
+.header_menu .logo{
+    width: 1.361in;
+    height: 0.333in;
+}
+.header_menu ul{
+    list-style-type: none;
+    padding: 5px;
+}
+.header_menu ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+    float: right;
+    
+}
+.header_menu ul li::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.header_menu a{
+    padding: 9px 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+    
+}
+
+.header_menu ul li:first-child {
+    float: left;
+}
+.header_menu ul li:hover:not(.header_menu ul li:first-child) a,.header_menu ul li:active:not(.header_menu ul li:first-child) a{
+    background: #61f4c8;
+    border-radius: 19px;
+    color: white;
+
+}
+/* ************* End Header Section *********/
+/* ----------------------------------------------- */
+/* ************* Start Hero section ***********/
+.hero{
+    background-image: linear-gradient(to bottom,#6bfdc6 ,#44d7cd );
+    width: 100%;
+    height: auto;
+    color: white;
+    
+}
+.hero-content{
+    width: 100%;
+    text-align: center;
+    margin: 15% 0%;
+
+}
+.hero-content h2{
+    font-size: 40pt;
+    
+
+}
+.hero-content .butt{
+
+    text-decoration: none;
+    color: white;
+    margin-left: 0;
+   
+} 
+/* ************* End Hero section ***********/
+/* ----------------------------------------------- */
+/* ************* Start Service Section *********/
+.service{
+    height: auto;
+    width: 100%;
+    padding: 0 0 6% 0;
+}
+.service-content{
+    margin-top: 8%;
+}
+.box{
+    float: left;
+    width: 24%;
+    text-align: center;
+}
+.box::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.box i[class^="fa"]{
+    padding: 28px;
+    border-radius: 50%;
+    color: white;
+    background-color: #61f4c8;
+    font-size: 55px;
+    margin: 5% 20%;
+
+}
+.box h2{
+    padding: 5px;
+    
+}
+.box p{
+    margin-top: 9%;
+    padding: 5px;
+    color: rgb(109, 109, 109);
+    
+}
+/* ********** button *********/
+.butt{
+    margin:  8% 0 0 40%;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, #ff8a66,#db3300);
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+
+}
+/* ************* End Service Section *********/
+/* ----------------------------------------------- */
+/* ************* Start Browser Section *********/
+.browser{
+    background-image: linear-gradient(to  bottom right, #ec4816,#be2c00);
+    width: 100%;
+}
+.browser-content{
+
+    padding-top: 40px;
+
+}
+.browser-text{
+    text-align: center;
+    width: 80%;
+    color: white;
+    margin-left: 10%;
+}
+.browser-text h2{
+    font-size: 43px;
+    padding: 10px;
+}.browser-text p{
+    margin-top: 5%;
+}
+/* *********** browser view *********/
+.browser-view{
+    width: 70%;
+    margin: auto;
+    padding-top: 15%;
+    position: relative;
+}
+.browser-box{
+    width: 48%;
+    float: left;
+    margin-left: 10px;
+    z-index: -1;
+}
+.main-browser{
+    width: 60%;
+    height: 100%;;
+    position: absolute;
+    z-index: 1;
+    margin: -11% 7% 0 21%;
+}
+.main-browser .search{
+    width: 70%;
+}
+.browser-box::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* browser-head *********/
+.browser-head{
+    height: 24px;
+    background: #1b243a;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+/* ******* browser-head-icon *****/
+.browser-head-icon{
+    border-radius: 50%;
+    padding: 4px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.browser-head-icon:last-child {
+    float: right;
+    font-size: 11px;
+    padding: 6px 9px 0px 0px;
+}
+.browser-head-icon:last-child::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* browser-menu *********/
+.browser-menu{
+    height: 30px;
+    background: #e99a9f;
+    color: white;
+}
+.browser-menu-icon{
+    padding: 6px;
+    margin-top: 2px;
+    display: inline-block;
+    font-size: 10px;
+}
+.search{
+    width: 60%;
+    background: #e78288;
+    border: 0.1px solid white;
+    border-radius: 15px;
+}
+.search i:last-child {
+    float: right;
+}
+.browser-page{
+    height: 305px;
+    width: 100%;
+    background: white;
+
+}
+.main-browser .browser-page{
+    height: 391px;
+}
+.browser-page img{
+    width: 100%;
+}
+/* ************** End Browser Section ************/
+/* ******* start Android ******/
+.android{
+    width: 100%;
+}
+.android-content{
+    width: 85%;
+    margin: auto;
+}
+.android-content-box{
+    float: left;
+
+    padding: 10px; 
+    margin: 10px;
+}
+.mobile{
+    width: 35%;
+}
+.mobile img{
+    width: 90%;
+    margin-top: -5%;
+    z-index: 1;
+}
+.mobile img:first-child{
+    background: green;
+}
+.android-text{
+    margin-top: 13%;
+    width: 50%;
+}
+.android-text h2{
+    padding: 20px 0 30px 0;
+    font-size: 44px;
+}
+.android-text p{
+    padding: 10px 0 10px 0;
+}
+.android-text a{
+    margin-left: -41%;
+}
+/* ------------------------------------------------ */
+/* ----------------- Start portfolio ------------- */
+.portfolio{
+    width: 100%;
+    background: #5defc9;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.portfolio-body{
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}    
+.portfolio-text{
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-left: 0%;
+    padding: 4px 7px;
+}
+.portfolio-text h2{
+    font-size: 43px;
+    padding: 10px;
+    margin-top: 4%;
+}
+.portfolio-text p{
+    margin-top: 4%;
+    padding: 0 81px;
+}
+.portfolio-menu{
+    margin-top: 8%;
+}
+.portfolio-menu a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+    color: black;
+    
+}
+.portfolio-menu a:hover ,.portfolio-menu a:active{
+    color: #fff;
+}
+.portfolio-work-content{}
+.portfolio-work{
+    width: 30.6%;
+    margin: 14px;
+    height: 340px;
+    float: left;
+    text-align: center;
+    background: #fff;
+}
+.portfolio-work::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.portfolio-work img{
+    width: 100%;
+    height: 190px;
+    background-color: #1b243a;
+}
+.portfolio-work h3{
+    margin-top: 10px;
+}
+.portfolio-work p{
+    padding: 18px 34px;
+    color: rgb(153, 153, 153);
+    
+}
+.portfolio-arow-icon{
+    text-align: center;
+    margin: auto;
+    width: 60px;
+    padding: 10px 10px;
+}
+.portfolio-arow-icon i{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    font-size: 31px;
+    padding: 10px;
+    color: #5defc9;
+}
+/* ----------------- End portfolio ------------- */
+/* ------------------------------------ ------------- */
+/* ******************** Start stats ***************/
+.stats{
+    width: 100%;
+    background-color: #233537;
+    padding: 4% 0;
+    height: auto;
+}
+.stats-body{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.stats-item{
+    width: 23%;
+    float: left;
+    margin: 8px;
+}
+.stats-item i{
+    font-size: 60px;
+    color:  #c52d25;
+}
+.stats-item p{
+    color: #fff;
+    font-size: 43px;
+    padding: 30px 0;
+}
+.stats-item h4{
+    color: #13bbaa;
+}
+/* ******************** End stats ***************/
+/* ----------------------------------------- ----- */
+/* ******************** Start team ***************/
+.team{
+    width: 100%;
+    height: auto;
+    padding: 4% 0;
+    background-color: #fff;
+}
+.team-body{
+
+}
+.team-text{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+}
+.team-text h2{
+    font-size: 34px;
+}
+.team-text p{
+    padding: 4% 0;
+}
+.team-content{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 4% 0 ;
+}
+.team-box{
+    width: 23%;
+    background-color: #5aecc9;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+.team-box::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+.team-box img{
+    width: 100%;
+    height: 200px;
+}
+.team-box h3{
+    padding: 10px;
+}
+.team-box h4{
+    color: #fff;
+    padding: 10px;
+}
+.team-box p{
+    padding: 20px 0 ;
+}
+/* ******************** End team ***************/
+/* *****---------------- ***************/
+/* ******************** Start Quote ***************/
+.quote{
+    width: 100%;
+    padding: 4% 0;
+    background: linear-gradient(to bottom, #f7652c,#c52d25)
+}
+.quote-body{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.quote-icon{
+    margin: 5% 0;
+}
+.quote-icon i{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 3px 6px 0 0;
+    font-size: 43px;
+    margin: 14px;
+    background-color: #413434;
+    color: #fff;
+    font-family: cursive;
+}
+.quote-content h3{
+    font-size: 34px;
+}
+.quote-content h4{
+    font-size: 22px;
+}
+.quote-nav{
+    padding: 4% 0;
+}
+.quote-nav a{
+    display: inline-block;
+    text-decoration: none;
+    width: 52px;
+    height: 53px;
+    border-radius: 50%;
+    font-size: 35px;
+    margin: 14px;
+    padding: 0 2px 0 0;
+    background-color: white;
+    color: #ff3c58;
+    font-family: cursive;
+}
+.quote-nav a:hover{
+    color: #44d7cd
+}
+/* ******************** End Quote ***************/
+/* ************---------------------***************/
+/* **************-Start Newsletter *************/
+.newsletter{
+    width: 100%;
+    background-color: #233537;
+    padding: 6% 0 3% 0;
+}
+.newsletter-body{
+    width: 40%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.newsletter-body a{
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #44d7cd;
+    color: #fff;
+    
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin: 5%;
+}
+/* ***************** End Newsletter **************/
+/* **********---------------------**************/
+/* ***************** Start About  **************/
+.about{
+    width: 100%;
+    padding: 5% 0 ;
+}
+.about-body{
+    width: 100%;
+    margin: auto;
+}
+.about-box{
+    float: left;
+    width: 45%;
+    margin: 10px;
+    
+}
+.about-image{
+    background-color: #233537;
+    padding: 0px;
+   
+}
+.about-image img{
+    width: 100%;
+     height: 300px;
+}
+.about-text{
+
+}
+.about-text h2{
+    padding: 20px;
+}
+.about-text p{
+    text-align: justify;
+}
+/* ***************** End About **************/
+/* ****************-------------- **************/
+/* *********** Start Phone Mockup **************/
+.phone-mockup {
+    width: 100%;
+    padding: 5% 0 ;
+    background-color: #58ebca;
+    color: #fff;
+}
+.phone-mockup-body{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.phone-mockup-box{
+    margin: 10px;
+    position: absolute;
+    
+}
+.phone-mockup-box::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.phone-mockup-image{
+    background-color: transparent;
+    padding: 0px;
+    float: left;
+    width: 40%;
+}
+.phone-mockup-image img{
+    width: 40%;
+    height: 400px;
+    float: right;
+    margin: 9% 0 0 0%;
+}
+.phone-mockup-text{
+    width: 55%; 
+    float: right;
+}
+.phone-mockup-text h2{
+    padding: 20px;
+}
+.phone-mockup-text p{
+    text-align: justify;
+}
+/* *********** End Phone Mockup **************/
+/* ***********------------------- **************/
+/* ***********---Start Clients- **************/
+.clients{
+    width: 100%;
+    background: #fdfdfd;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.clients-body{
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}    
+.clients-text{
+    text-align: center;
+    width: 100%;
+    color: rgb(5, 4, 4);
+    margin-left: 0%;
+    padding: 4px 7px;
+}
+.clients-text h2{
+    font-size: 43px;
+    padding: 10px;
+    margin-top: 4%;
+}
+.clients-text p{
+    margin-top: 4%;
+    padding: 0 81px;
+}
+
+.clients-content{
+    margin-top: 5%;
+}
+.clients-box{
+    width: 30.6%;
+    margin: 14px;
+    float: left;
+    text-align: center;
+    background: rgb(17, 201, 176);
+}
+.clients-box::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.clients-box h3{
+    margin-top: 10px;
+    color: #fff;
+}
+.clients-box h3{
+    margin-top: 20px;
+
+}
+.clients-box p{
+    padding: 5% 34px 18% 34px ;
+    color: rgb(252, 252, 252);
+    
+}
+
+/* ***********---End Clients- **************/
+/* *******-----------------------**************/
+/* *********** Start Contact Us **************/
+.contact-us{
+    width: 100%;
+    padding: 4% 0;
+    background: linear-gradient(to bottom, #f7652c,#c52d25);
+}
+.contact-us-body{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.contact-us-content h3{
+    font-size: 34px;
+}
+.contact-us-content p{
+    padding: 4% 0;
+}
+.contact-us-form{
+    width: 70%;
+    margin: auto;
+    color: #fff;
+}
+.contact-us-form form input{
+    width: 93%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(238, 238, 241);
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    
+}
+.contact-us-form form input:nth-child(1),.contact-us-form form input:nth-child(2){
+    width: 42%;
+    margin: 8% 1%;
+    display: inline-block;
+}
+
+.contact-us-form form input:nth-child(4){
+    width: max-content;
+    float: right;
+    border-radius: 0;
+    background-color: #233537;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+/* *********** End Contact Us **************/
+/* ***********--------------- **************/
+/* ********** Start Footer **************/
+.footer{
+    width: 100%;
+    background-color: #232e3d;
+}
+.footer-body{
+    padding: 4% 0;
+}
+.footer-box{
+    float: left;
+    
+}
+.footer-box::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.map{
+    width: 55%;
+    padding: 10px;
+}
+.map img{
+    width: 100%;
+    height: 90%;
+}
+.footer-address{
+    width: 39%;
+    background-color: #54e7ca;
+    margin: 1% 0 0 3%;
+    padding: 3% 0;
+}
+.footer-address a{
+    line-height: 34px;
+    padding: 20px 0px 0 62px;
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.copyrite{
+    width: 100%;
+    background-color: #233537;
+    text-align: center;
+    height: 50px;
+    color: #fff;
+    padding: 2% 0 0 0;
+}
+/* *********** End Footer **************/
+
